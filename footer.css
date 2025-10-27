@@ -33,7 +33,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/* Reset / base */
 * {
   margin: 0;
   padding: 0;
@@ -41,7 +40,6 @@
   font-family: 'Roboto Slab', serif;
 }
 
-/* Prefcard (top section) */
 .prefcard {
   background: #9DC9C8;
   height: 54.1vw;
@@ -105,7 +103,6 @@ h1 {
   line-height: 1.27vw;
 }
 
-/* Footer block (bottom section) */
 .block {
   background-color: black;
   padding: 3.472vw 12.014vw 3.056vw 8.472vw;
@@ -141,7 +138,7 @@ h1 {
 }
 
 .column,
-.column2 { display: flex; }
+.column2 { display: flex; align-items: center; }
 
 #phone_icon {
   height: 1.875vw;
@@ -150,7 +147,7 @@ h1 {
   margin-right: 1.528vw;
 }
 
-#message_icon { width: 1.875vw; height: 1vw; margin-right: 1.528vw; }
+#message_icon { width: 1.875vw; height: 1.875vw; margin-right: 1.528vw; }
 
 .text-2 {
   font-family: Roboto;
@@ -168,8 +165,7 @@ h1 {
   color: white;
 }
 
-/* Responsive rules */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1024px) {
   .text-1 { width: 13.429vw; }
   .synchronize { font-size: 1.2vw; }
   .row { margin-bottom: 10.152vw; }
@@ -190,7 +186,7 @@ h1 {
   .text-3 { width: 16.307vw; font-size: 1.67vw; }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 600px) {
   .blockcon { flex-direction: column; }
   .text-1 { width: 32.667vw; }
   .synchronize { font-size: 2.933vw; }
@@ -209,7 +205,7 @@ h1 {
   .right-side { margin-bottom: 13.067vw; width: 40vw; }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1024px) {
   .prefcard { height: 54.17vw; padding: 12.43vw 28.5vw 12.84vw 8.47vw; }
   h1 { width: 63.055vw; height: 4.584vw; font-size: 3.84vw; line-height: 3.89vw; margin-bottom: 3.75vw; }
 
@@ -221,7 +217,7 @@ h1 {
   .detail-description { width: 20.42vw; height: 4.86vw; line-height: 1.22vw; font-size: 1.2vw; }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   .prefcard { height: 96.92vw; padding: 16.5vw 8.53vw 16.92vw 9.6vw; }
   h1 { height: 16.8vw; width: 59.7vw; font-size: 6.93vw; line-height: 7.03vw; margin-bottom: 5.95vw; }
 
