@@ -277,3 +277,5 @@
     margin-left: 20vw;
   }
 }
+/* ORTAQ CSS (branch: ortaq-css) */
+.ortaq { border: 2px dashed #c00; padding: 8px; }
