@@ -4,12 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto Slab', serif;
-}
 
 .block2-over {
     margin: 0 auto;
@@ -533,4 +527,5 @@ div .block2-time2 {
     div .block2-time2 {
         font-size: 1.82vw;
     }
+
 }
