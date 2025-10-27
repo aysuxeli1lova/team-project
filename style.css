@@ -15,7 +15,7 @@ body {
 }
 
 
-.main-bottom-h1 {
+.block3-main-bottom-h1 {
   width: 80vw;
   margin: 5vw auto 10vw auto;
   font-size: 3.5vw;
@@ -25,7 +25,7 @@ body {
 }
 
 
-.main-bottom-div1 {
+.block3-main-bottom-div1 {
   display: flex;
   flex-wrap: wrap;
   
@@ -34,7 +34,7 @@ body {
   margin: 0 auto;
 }
 
-.picture {
+.block3-picture {
   width: 27vw;
   border-radius: 2vw;
   box-shadow: 0.5vw 0.5vw 1vw rgba(0, 0, 0, 0.2);
@@ -43,24 +43,24 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.picture:hover {
+.block3-picture:hover {
   transform: translateY(-0.5vw);
   box-shadow: 0.8vw 0.8vw 1.5vw rgba(0, 0, 0, 0.3);
 }
 
-.picture img {
+.block3-picture img {
   width: 100%;
   height: 10vw;
   object-fit: cover;
 }
 
-.picture h3 {
+.block3-picture h3 {
   font-size: 1.3vw;
   padding: 1vw 1.2vw 0.5vw;
   font-family: "Roboto Slab", serif;
 }
 
-.picture p {
+.block3-picture p {
   font-size: 1vw;
   padding: 0 1.2vw 1.2vw;
   color: #333;
@@ -68,14 +68,14 @@ body {
 }
 
 
-.main-bottom-div2 {
+.block3-main-bottom-div2 {
   width: 100%;
   background-color: #EFEFEF;
   margin-top: 10vw;
   padding: 5vw 0;
 }
 
-.div2-text1 {
+.block3-div2-text1 {
   font-family: "Roboto Slab", serif;
   font-weight: 700;
   font-size: 2.8vw;
@@ -83,7 +83,7 @@ body {
   margin: 0 auto 3vw auto;
 }
 
-.card {
+.block3-card {
   width: 45vw;
   background: #fff;
   border-radius: 1vw;
@@ -94,35 +94,35 @@ body {
   transition: transform 0.3s ease;
 }
 
-.card:hover {
+.block3-card:hover {
   transform: scale(1.02);
 }
 
-.testimonial {
+.block3-testimonial {
   font-size: 1.1vw;
   color: #333;
   margin-bottom: 2vw;
 }
 
-.profile {
+.block3-profile {
   display: flex;
   align-items: center;
   gap: 1.5vw;
 }
 
-.avatar {
+.block3-avatar {
   width: 8vw;
   height: 8vw;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.name {
+.block3-name {
   font-size: 1.2vw;
   font-weight: bold;
 }
 
-.social {
+.block3-social {
   margin-top: 0.3vw;
   width: 1.5vw;
   height: auto;
@@ -130,51 +130,51 @@ body {
 
 
 @media (max-width: 1024px) {
-  .main-bottom-h1 {
+  .block3-main-bottom-h1 {
     font-size: 4vw;
     text-align: center;
   }
 
-  .picture {
+  .block3-picture {
     width: 28vw;
     
   }
 
-  .picture img {
+  .block3-picture img {
     height: 15vw;
   }
 
-  .picture h3 {
+  .block3-picture h3 {
     font-size: 2vw;
   }
 
-  .picture p {
+  .block3-picture p {
     font-size: 1.5vw;
   }
 
-  .div2-text1 {
+  .block3-div2-text1 {
     font-size: 4vw;
     text-align: left;
   }
 
-  .card {
+  .block3-card {
     width: 75vw;
     padding: 3vw;
   }
 
-  .testimonial {
+  .block3-testimonial {
     font-size: 2vw;
   }
 
-  .avatar {
+  .block3-avatar {
     width: 12vw;
     height: 12vw;
   }
 
-  .name {
+  .block3-name {
     font-size: 2vw;
   }
-   .social {
+   .block3-social {
   margin-top: 0.3vw;
   width: 2.5vw;
   height: auto;
@@ -183,57 +183,57 @@ body {
 
 
 @media (max-width: 600px) {
-  .main-bottom-h1 {
+  .block3-main-bottom-h1 {
     font-size: 6vw;
     text-align: center;
     margin-bottom: 8vw;
   }
 
-  .main-bottom-div1 {
+  .block3-main-bottom-div1 {
     flex-direction: column;
     align-items: center;
     gap: 5vw;
   }
 
-  .picture {
+  .block3-picture {
     width: 85vw;
   }
 
-  .picture img {
+  .block3-picture img {
     height: 37vw;
   }
 
-  .picture h3 {
+  .block3-picture h3 {
     font-size: 4vw;
   }
 
-  .picture p {
+  .block3-picture p {
     font-size: 3.2vw;
   }
 
-  .div2-text1 {
+  .block3-div2-text1 {
     font-size: 5vw;
     text-align: center;
   }
 
-  .card {
+  .block3-card {
     width: 85vw;
     padding: 5vw;
   }
 
-  .testimonial {
+  .block3-testimonial {
     font-size: 3.5vw;
   }
 
-  .avatar {
+  .block3-avatar {
     width: 20vw;
     height: 20vw;
   }
 
-  .name {
+  .block3-name {
     font-size: 3.5vw;
   }
-  .social {
+  .block3-social {
   margin-top: 0.3vw;
   width: 3.5vw;
   height: auto;
